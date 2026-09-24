@@ -29,7 +29,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3">
 
             <img
-              src="Amani-logo.jpeg"
+              src="/Amani-logo.jpeg"
               alt="Amani Label Logo"
               className="w-12 h-12 object-contain"
             />

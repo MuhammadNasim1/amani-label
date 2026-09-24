@@ -228,7 +228,7 @@ const Contact = () => {
       {/* Footer */}
       <footer className="border-t border-[#d8cabe] px-6 py-8 text-center">
         <img
-          src="Amani-logo.jpeg"
+          src="/Amani-logo.jpeg"
           alt="AMANI Logo"
           className="mx-auto h-20 w-auto object-contain"
         />

@@ -72,7 +72,7 @@ const About = () => {
 
         <div className="flex justify-center">
           <img
-            src="Amani-logo.jpeg"
+            src="/Amani-logo.jpeg"
             alt="AMANI Brand Logo"
             className="w-full max-w-md rounded-sm object-contain shadow-xl"
           />
