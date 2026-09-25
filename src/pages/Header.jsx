@@ -30,17 +30,17 @@ const Header = () => {
 
             <img
               src="/Amani-logo.jpeg"
-              alt="Amani Label Logo"
+              alt="AMÁNI Labell Logo"
               className="w-12 h-12 object-contain"
             />
 
             <div>
               <h1 className="text-xl md:text-2xl tracking-[0.2em] font-serif font-semibold">
-                AMANI
+                AMÁNI
               </h1>
 
               <p className="text-[9px] tracking-[0.45em] text-gray-500 text-center">
-                LABEL
+                LABELL
               </p>
             </div>
 

@@ -12,11 +12,11 @@ const Footer = () => {
           <a href="/" className="inline-block">
 
             <h2 className="font-serif text-5xl md:text-6xl tracking-[9px]">
-              AMANI
+              AMÁNI
             </h2>
 
             <p className="text-xs md:text-sm tracking-[13px] mt-2 pl-3">
-              LABEL
+              LABELL
             </p>
 
           </a>
