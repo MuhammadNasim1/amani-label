@@ -5,7 +5,7 @@ import {
   removeFromCart,
   increaseQuantity,
   decreaseQuantity,
-} from "../redux/features/cartSlice";
+} from "../redux/features/CartSlice";
 
 const Cart = () => {
   const dispatch = useDispatch();

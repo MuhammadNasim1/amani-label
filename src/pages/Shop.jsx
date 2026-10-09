@@ -6,28 +6,28 @@ const products = [
     name: "Classic Black Abaya",
     category: "Abayas",
     price: 2499,
-    image: "/images/black-abaya.jpg",
+    image: "/images/Classic-BlackAbaya.png",
   },
   {
     _id: "abaya-2",
     name: "Everyday Beige Abaya",
     category: "Abayas",
     price: 2799,
-    image: "/images/beige-abaya.jpg",
+    image: "/images/Beige-Abaya.png",
   },
   {
     _id: "hijab-1",
     name: "Soft Chiffon Hijab",
     category: "Hijabs",
     price: 499,
-    image: "/images/chiffon-hijab.jpg",
+    image: "/images/Chiffon-shall.png",
   },
   {
     _id: "set-1",
     name: "Modest Co-ord Set",
     category: "Co-ord Sets",
     price: 3299,
-    image: "/images/coord-set.jpg",
+    image: "/images/Modest-cordset.png",
   },
 ];
 

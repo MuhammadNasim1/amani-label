@@ -9,6 +9,7 @@ import Products from './pages/Products'
 import Cart from './pages/Cart'
 import { useDispatch } from 'react-redux'
 import { addToCart } from './redux/features/CartSlice'
+import Shop from './pages/Shop'
 
 const App = () => {
   const dispatch = useDispatch();
