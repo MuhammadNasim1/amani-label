@@ -7,8 +7,11 @@ import { Route, Routes } from 'react-router-dom'
 import Footer from './pages/Footer'
 import Products from './pages/Products'
 import Cart from './pages/Cart'
+import { useDispatch } from 'react-redux'
+import { addToCart } from './redux/features/CartSlice'
 
 const App = () => {
+  const dispatch = useDispatch();
   return (
     <div>
       <Header/>
@@ -18,6 +21,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path ="/products" element={<Products/>} />
         <Route path ="/cart" element={<Cart/>} />
+        <Route  path="/shop"  element={ <Shop   onAddToCart={(product) => dispatch(addToCart({ ...product, quantity: 1 })) } /> }/>  
       </Routes>
       <Footer/>
     </div>
